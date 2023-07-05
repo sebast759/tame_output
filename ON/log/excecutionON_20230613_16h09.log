@@ -1,0 +1,86 @@
+2023-06-13 16:09:04,768
+ON program started 20230613 16:09:04,
+US time: 20230613 11:09:04
+2023-06-13 16:09:44,149
+the strat is currently running @ 13-06-2023 and the target positions is NEUTRAL
+2023-06-13 16:09:46,970
+CURRENT STATUS IS NEUTRAL
+-----
+return before 14h30:
+BTCUSDT-0.30%, ETHUSDT-0.42%, XRPUSDT+0.34%
+-----
+target alloc initial:BTCUSDT+0.00%, ETHUSDT+0.00%, XRPUSDT+0.00%
+-----
+alloc target x rt%<0:BTCUSDT+0.00%, ETHUSDT+0.00%, XRPUSDT+0.00%
+-----
+           BTCUSDT ETHUSDT XRPUSDT
+w_target      0.0%    0.0%    0.0%
+rt_14h30    -0.00%  -0.00%   0.00%
+w_target_f    0.0%    0.0%    0.0%
+2023-06-13 16:09:46,989
+Portfolio was rebalanced less than 2 hours ago, 0.1 hours ago
+2023-06-13 16:09:46,991
+Status: prev = NEUTRAL <> NEUTRAL = target
+2023-06-13 16:09:46,991
+the strat is currently running @ 13-06-2023 and the target positions is NEUTRAL
+the strat was previously run @ 13 Jun 2023 16:04, success:yes 
+   and the current positions is NEUTRAL
+2023-06-13 16:09:49,568
+positions_future #0
+2023-06-13 16:09:49,569
+Empty DataFrame
+Columns: [symbol, positionAmt, entryPrice, markPrice, unRealizedProfit, value_usd, updateTime, AUMs_account, w%]
+Index: []
+2023-06-13 16:09:50,568
+programm stoppeddd!!! 20230613_160950
+2023-06-13 16:09:57,237
+------------------------------
+binance_account_balance
+2023-06-13 16:09:57,238
+  asset     balance withdrawAvailable   updateTime
+8  USDT  341.462599      341.46259930  12Jun-22:32
+2023-06-13 16:09:58,854
+------------------------------
+open_orders
+2023-06-13 16:09:58,854
+Empty DataFrame
+Columns: []
+Index: []
+2023-06-13 16:10:00,261
+------------------------------
+AUMS account:341
+
+2023-06-13 16:10:03,279
+--------------- compute_futures_order_book() ----------------
+2023-06-13 16:10:04,944
+----------------------------------------------------------------------
+#0 order(s) to place
+gross$: 0$ | net$: +0$
+gross%: 0% | net%: +0%
+ || w>0%  +0% | w<0%  0%
+----------------------------------------------------------------------
+PTF Expo% 0.0% >> 0.0% (current>>target)
+PTF expo $0.0 >> $0 (current>>target)
+----------------------------------------------------------------------
+2023-06-13 16:10:07,608
+orders_ofthe_day
+2023-06-13 16:10:07,608
+Empty DataFrame
+Columns: [ptf_usd, target_usd, totrd_usd, posttrd_usd, qty, posttrd_qty, posttrd_w, bid, ask]
+Index: []
+2023-06-13 16:10:08,576
+Orders of the day is empty, current and target potfolios are aligned
+2023-06-13 16:10:08,576
+Program stopped
+2023-06-13 16:10:23,038
+binance_place_orders_peg 20230613_161023
+2023-06-13 16:10:40,656
+***************************
+Positions after orders
+***************************
+2023-06-13 16:10:40,656
+********No Position************
+2023-06-13 16:10:40,657
+***************************
+2023-06-13 16:11:24,662
+the strat is currently running @ 13-06-2023 and the target positions is LONG
