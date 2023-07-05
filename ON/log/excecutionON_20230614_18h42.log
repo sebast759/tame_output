@@ -1,0 +1,65 @@
+2023-06-14 18:42:03,401
+ON program started 20230614 18:42:03,
+US time: 20230614 13:42:03
+2023-06-14 18:42:03,540
+the strat is currently running @ 14-06-2023 and the target positions is SHORT
+2023-06-14 18:42:05,107
+CURRENT STATUS IS SHORT, WE CHECK IF THE DAY IS A NEGATIVE ONE
+-----
+return before 14h30:
+BTCUSDT-0.16%, ETHUSDT-0.60%, XRPUSDT-2.35%
+-----
+target alloc initial:BTCUSDT+0.00%, ETHUSDT+0.00%, XRPUSDT-5.00%
+-----
+alloc target x rt%<0:BTCUSDT+0.00%, ETHUSDT+0.00%, XRPUSDT-5.00%
+-----
+           BTCUSDT ETHUSDT XRPUSDT
+w_target      0.0%    0.0%   -5.0%
+rt_14h30    -0.00%  -0.01%  -0.02%
+w_target_f    0.0%    0.0%   -5.0%
+2023-06-14 18:42:05,137
+Portfolio was rebalanced less than 2 hours ago, 0.2 hours ago
+2023-06-14 18:42:05,140
+Status: prev = SHORT <> NEUTRAL = target
+2023-06-14 18:42:05,140
+the strat is currently running @ 14-06-2023 and the target positions is SHORT
+the strat was previously run @ 14 Jun 2023 18:30, success:yes 
+   and the current positions is NEUTRAL
+2023-06-14 18:42:06,591
+positions_future #0
+2023-06-14 18:42:06,591
+Empty DataFrame
+Columns: [symbol, positionAmt, entryPrice, markPrice, unRealizedProfit, value_usd, updateTime, AUMs_account, w%]
+Index: []
+2023-06-14 18:42:33,227
+***************************
+EXECUTION TRADES OK:
+scripts : | 14 Jun 2023 18:42:execution
+***************************
+
+
+***************************
+
+
+***************************
+EXECUTION ALL GOOD: THE END
+***************************
+2023-06-14 18:42:46,027
+***************************
+EXECUTION TRADES OK:
+scripts : | 14 Jun 2023 18:42:execution
+***************************
+
+
+***************************
+
+
+***************************
+EXECUTION ALL GOOD: THE END
+***************************
+2023-06-14 18:44:02,730
+ON program started 20230614 18:44:02,
+US time: 20230614 13:44:02
+2023-06-14 18:46:52,207
+ON program started 20230614 18:46:52,
+US time: 20230614 13:46:52
