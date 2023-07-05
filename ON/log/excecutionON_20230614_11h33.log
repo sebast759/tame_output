@@ -1,0 +1,69 @@
+2023-06-14 11:33:22,812
+ON program started 20230614 11:33:20,
+US time: 20230614 06:33:22
+2023-06-14 11:33:22,958
+the strat is currently running @ 14-06-2023 and the target positions is SHORT
+2023-06-14 11:33:25,025
+CURRENT STATUS IS SHORT, WE CHECK IF THE DAY IS A NEGATIVE ONE
+-----
+return before 14h30:
+BTCUSDT-0.06%, ETHUSDT-0.02%, XRPUSDT-1.95%
+-----
+target alloc initial:BTCUSDT+0.00%, ETHUSDT+0.00%, XRPUSDT-5.00%
+-----
+alloc target x rt%<0:BTCUSDT+0.00%, ETHUSDT+0.00%, XRPUSDT-5.00%
+-----
+           BTCUSDT ETHUSDT XRPUSDT
+w_target      0.0%    0.0%   -5.0%
+rt_14h30    -0.00%  -0.00%  -0.02%
+w_target_f    0.0%    0.0%   -5.0%
+2023-06-14 11:33:25,050
+Portfolio was rebalanced less than 2 hours ago, 5.1 hours ago
+2023-06-14 11:33:25,051
+Status: prev = SHORT <> NEUTRAL = target
+2023-06-14 11:33:25,052
+the strat is currently running @ 14-06-2023 and the target positions is SHORT
+the strat was previously run @ 14 Jun 2023 06:26, success:yes 
+   and the current positions is NEUTRAL
+2023-06-14 11:33:26,372
+positions_future #0
+2023-06-14 11:33:26,372
+Empty DataFrame
+Columns: [symbol, positionAmt, entryPrice, markPrice, unRealizedProfit, value_usd, updateTime, AUMs_account, w%]
+Index: []
+2023-06-14 11:33:27,457
+------------------------------
+binance_account_balance
+2023-06-14 11:33:27,457
+  asset     balance withdrawAvailable   updateTime
+8  USDT  340.924895      340.92489452  14Jun-02:49
+2023-06-14 11:33:27,479
+------------------------------
+AUMS account:340
+
+2023-06-14 11:33:27,513
+--------------- compute_futures_order_book() ----------------
+2023-06-14 11:33:29,101
+----------------------------------------------------------------------
+#1 order(s) to place
+gross$: 17$ | net$: -17$
+gross%: 5% | net%: -5%
+ || w>0%  +0% | w<0%  -5%
+----------------------------------------------------------------------
+PTF Expo% 0.0% >> -5.0% (current>>target)
+PTF expo $0.0 >> $-17 (current>>target)
+----------------------------------------------------------------------
+2023-06-14 11:33:29,132
+orders_ofthe_day
+2023-06-14 11:33:29,132
+                  ptf_usd  target_usd  totrd_usd  posttrd_usd    qty   
+2023-06-14 11:33                                                       
+XRPUSDT               0.0      -17.05      -17.0        -17.0  -33.9  \
+
+                 posttrd_qty  posttrd_w     bid     ask  
+2023-06-14 11:33                                         
+XRPUSDT                -33.9  -0.049864  0.5027  0.5028  
+2023-06-14 11:33:30,736
+binance_place_orders_peg 20230614_113330
+2023-06-14 11:33:31,240
+{'orderId': 35218157186, 'symbol': 'XRPUSDT', 'status': 'NEW', 'clientOrderId': 'ouHPT09C07o4BffCEql663', 'price': '0.5103', 'avgPrice': '0.00000', 'origQty': '33.9', 'executedQty': '0', 'cumQty': '0', 'cumQuote': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'updateTime': 1686738811439}
