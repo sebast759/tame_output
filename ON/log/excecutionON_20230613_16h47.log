@@ -1,0 +1,221 @@
+2023-06-13 16:47:16,698
+ON program started 20230613 16:47:16,
+US time: 20230613 11:47:16
+2023-06-13 16:49:42,194
+the strat is currently running @ 13-06-2023 and the target positions is NEUTRAL
+2023-06-13 16:49:55,050
+the strat is currently running @ 13-06-2023 and the target positions is LONG
+2023-06-13 16:50:24,151
+CURRENT STATUS IS LONG
+-----
+return before 14h30:
+BTCUSDT-1.15%, ETHUSDT-1.06%, XRPUSDT-3.29%
+-----
+target alloc initial:BTCUSDT+0.00%, ETHUSDT+0.00%, XRPUSDT+20.00%
+-----
+alloc target x rt%<0:BTCUSDT+0.00%, ETHUSDT+0.00%, XRPUSDT+20.00%
+-----
+           BTCUSDT ETHUSDT XRPUSDT
+w_target      0.0%    0.0%   20.0%
+rt_14h30    -0.01%  -0.01%  -0.03%
+w_target_f    0.0%    0.0%   20.0%
+2023-06-13 16:51:11,624
+Portfolio was rebalanced less than 2 hours ago, 0.7 hours ago
+2023-06-13 16:51:11,626
+Status: prev = LONG <> NEUTRAL = target
+2023-06-13 16:51:11,627
+the strat is currently running @ 13-06-2023 and the target positions is LONG
+the strat was previously run @ 13 Jun 2023 16:10, success:yes 
+   and the current positions is NEUTRAL
+2023-06-13 16:51:24,037
+positions_future #0
+2023-06-13 16:51:24,037
+Empty DataFrame
+Columns: [symbol, positionAmt, entryPrice, markPrice, unRealizedProfit, value_usd, updateTime, AUMs_account, w%]
+Index: []
+2023-06-13 16:51:45,014
+positions_future #0
+2023-06-13 16:51:45,014
+Empty DataFrame
+Columns: [symbol, positionAmt, entryPrice, markPrice, unRealizedProfit, value_usd, updateTime, AUMs_account, w%]
+Index: []
+2023-06-13 16:52:20,316
+------------------------------
+binance_account_balance
+2023-06-13 16:52:20,317
+  asset     balance withdrawAvailable   updateTime
+8  USDT  341.462599      341.46259930  12Jun-22:32
+2023-06-13 16:52:35,849
+------------------------------
+open_orders
+2023-06-13 16:52:35,849
+Empty DataFrame
+Columns: []
+Index: []
+2023-06-13 16:52:52,693
+------------------------------
+AUMS account:341
+
+2023-06-13 16:53:14,149
+--------------- compute_futures_order_book() ----------------
+2023-06-13 16:53:15,722
+----------------------------------------------------------------------
+#1 order(s) to place
+gross$: 68$ | net$: +68$
+gross%: 20% | net%: +20%
+ || w>0%  +20% | w<0%  0%
+----------------------------------------------------------------------
+PTF Expo% 0.0% >> 20.0% (current>>target)
+PTF expo $0.0 >> $68 (current>>target)
+----------------------------------------------------------------------
+2023-06-13 16:53:38,391
+orders_ofthe_day
+2023-06-13 16:53:38,391
+                  ptf_usd  target_usd  totrd_usd  posttrd_usd    qty   
+2023-06-13 16:53                                                       
+XRPUSDT               0.0       68.29       68.0         68.0  133.7  \
+
+                 posttrd_qty  posttrd_w     bid     ask  
+2023-06-13 16:53                                         
+XRPUSDT                133.7   0.199143  0.5106  0.5107  
+2023-06-13 16:54:48,302
+orders_ofthe_day
+2023-06-13 16:54:48,302
+                  ptf_usd  target_usd  totrd_usd  posttrd_usd    qty   
+2023-06-13 16:54                                                       
+XRPUSDT               0.0       68.29       68.0         68.0  133.7  \
+
+                 posttrd_qty  posttrd_w     bid     ask  
+2023-06-13 16:54                                         
+XRPUSDT                133.7   0.199143  0.5106  0.5107  
+2023-06-13 16:56:10,100
+binance_place_orders_peg 20230613_165610
+2023-06-13 16:56:10,632
+{'orderId': 35178638058, 'symbol': 'XRPUSDT', 'status': 'NEW', 'clientOrderId': '8ckhsUrbH0RQ9HNLAOa600', 'price': '0.5087', 'avgPrice': '0.00000', 'origQty': '133.7', 'executedQty': '0', 'cumQty': '0', 'cumQuote': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'updateTime': 1686671770509}
+2023-06-13 16:56:20,441
+update 0: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:23,458
++XRPUSDT: bp6.0|
+2023-06-13 16:56:23,988
+update 1: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:27,003
++XRPUSDT: bp8.0|
+2023-06-13 16:56:27,533
+update 2: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:30,542
++XRPUSDT: bp6.0|
+2023-06-13 16:56:31,080
+update 3: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:34,084
++XRPUSDT: bp4.0|
+2023-06-13 16:56:34,622
+update 4: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:37,624
++XRPUSDT: bp8.0|
+2023-06-13 16:56:37,624
+Adjustment limit #1 ... 
+ we cancel current orders and replace
+2023-06-13 16:56:37,625
+@+/-2.5bp limit 
+2023-06-13 16:56:37,625
+binance_cancel_and_replace_orders_peg 20230613_165637
+2023-06-13 16:56:38,444
+binance_place_orders_peg 20230613_165638
+2023-06-13 16:56:38,974
+{'orderId': 35178660843, 'symbol': 'XRPUSDT', 'status': 'NEW', 'clientOrderId': 'SA1SbXnHOVcl6rNmExk311', 'price': '0.5089', 'avgPrice': '0.00000', 'origQty': '133.7', 'executedQty': '0', 'cumQty': '0', 'cumQuote': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'updateTime': 1686671798846}
+2023-06-13 16:56:39,504
+update 0: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:42,510
++XRPUSDT: bp2.0|
+2023-06-13 16:56:43,041
+update 1: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:46,047
++XRPUSDT: bp4.0|
+2023-06-13 16:56:46,579
+update 2: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:49,590
++XRPUSDT: bp4.0|
+2023-06-13 16:56:50,114
+update 3: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:53,129
++XRPUSDT: bp6.0|
+2023-06-13 16:56:53,657
+update 4: filled 0 / 1 () | working 1 / 1 (+XRPUSDT)
+2023-06-13 16:56:56,672
++XRPUSDT: bp4.0|
+2023-06-13 16:56:56,672
+Adjustment limit #2 ... 
+ we cancel current orders and replace
+2023-06-13 16:56:56,673
+@+/-1.25bp limit 
+2023-06-13 16:56:56,673
+binance_cancel_and_replace_orders_peg 20230613_165656
+2023-06-13 16:56:57,486
+binance_place_orders_peg 20230613_165657
+2023-06-13 16:56:58,014
+update 0: filled 1 / 1 (+XRPUSDT) | working 0 / 1 ()
+2023-06-13 16:57:29,767
+Trades of the day
+in$
+as of: 13Jun 15:56>>15:56 (#trades: 1)
+trade net: +68.0 (+19.9%), trade gross: +68.0 (+19.9%), BUY: +68.0 (+19.9%), SELL: +0.0 (+0.0%)
+fees: $ 0.011 (1.6bp)
+2023-06-13 16:58:16,190
+Trades: 
+Filled #1
+______________________________________________
+                   in$ | in bp 68 traded | in bp 341 AUMs
+realizedPnl    +0      | +0      | +0     
+PnLvsArrival   +0.23   | +34     | +7     
+PnLvsLast      -0.35   | -51     | -10    
+______________________________________________
+                 | Value$ | PnL Arrival/Last 
+______________________________________________
+XRP:+133.7@0.5089 | +68$ | 0.23/-0.35
+2023-06-13 16:58:26,709
+***************************
+Positions after orders
+***************************
+2023-06-13 16:58:26,709
+      symbol  qty_ptf   execP        lstP  P&L[U]  value_usd   updateTime   
+107  XRPUSDT    133.7  0.5089  0.50750000  -0.187     67.853  13Jun-15:56  \
+
+      AUMs     w%  
+107  341.3  0.199  
+2023-06-13 16:58:26,712
+***************************
+2023-06-13 16:58:34,101
+1 STOP orders will be placed
+2023-06-13 16:58:34,101
+@+/-500.0bp limit
+2023-06-13 16:58:34,102
+binance_place_orders_peg 20230613_165834
+2023-06-13 16:58:34,629
+{'orderId': 35178791959, 'symbol': 'XRPUSDT', 'status': 'NEW', 'clientOrderId': 'ODm7gs0YEvCWWxU0jvS583', 'price': '0', 'avgPrice': '0.00000', 'origQty': '133.7', 'executedQty': '0', 'cumQty': '0', 'cumQuote': '0', 'timeInForce': 'GTC', 'type': 'STOP_MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.4820', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'STOP_MARKET', 'updateTime': 1686671914507}
+2023-06-13 16:58:43,686
+***************************
+EXECUTION TRADES OK:
+scripts : | 13 Jun 2023 16:58:execution
+***************************
+Trades of the day
+in$
+as of: 13Jun 15:56>>15:56 (#trades: 1)
+trade net: +68.0 (+19.9%), trade gross: +68.0 (+19.9%), BUY: +68.0 (+19.9%), SELL: +0.0 (+0.0%)
+fees: $ 0.011 (1.6bp)
+
+***************************
+Trades: 
+Filled #1
+______________________________________________
+                   in$ | in bp 68 traded | in bp 341 AUMs
+realizedPnl    +0      | +0      | +0     
+PnLvsArrival   +0.23   | +34     | +7     
+PnLvsLast      -0.35   | -51     | -10    
+______________________________________________
+                 | Value$ | PnL Arrival/Last 
+______________________________________________
+XRP:+133.7@0.5089 | +68$ | 0.23/-0.35
+
+***************************
+EXECUTION ALL GOOD: THE END
+***************************
