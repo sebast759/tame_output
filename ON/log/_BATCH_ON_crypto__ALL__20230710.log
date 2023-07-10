@@ -18,3 +18,6 @@
 2023-07-10 10:56:59,494 - 3_crypto_buy_ON_bt_update.py launched successfully.
 2023-07-10 10:56:59,495 - 2_crypto_buy_ON_posttrades.py launched successfully.
 2023-07-10 10:56:59,496 - 4_pygithub_4website.py launched successfully.
+2023-07-10 11:45:34,053 - 1_crypto_buy_ON.py launched successfully.
+2023-07-10 11:45:44,227 - 3_crypto_buy_ON_bt_update.py launched successfully.
+2023-07-10 11:45:52,924 - 2_crypto_buy_ON_posttrades.py launched successfully.
